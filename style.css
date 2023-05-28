@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f293a;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 530px ;
+    border: 2px solid #0ef;
+    display: flex;
+    align-items: center;
+    background:transparent;
+    border-radius: 10px;
+    padding: 0 45px;
+
+}
+.container .login-box{
+    position: relative;
+    width: 100%;
+   
+
+}
+.page-box .login-title{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+.login-title h2{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.login-title p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.page .input-box{
+    position: relative;
+    width: 100%;
+    height: 55px;
+   
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #2c4766;
+    outline: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0 16px;
+    transition: .4s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid{
+   border-color: #0ef;
+}
+
+
+.input-box label{
+    position: absolute;
+    top:50% ;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+    pointer-events: none;
+    transition: .4s ease;
+
+
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: 1px;
+    left: 12px;
+    font-size: 12px;
+    color: #0ef;
+    background:#1f293a;
+    padding: 0 6px;
+}
+
+
+.forget a{
+    font-size: 14px;
+    color: #0ef;
+    text-decoration: none;
+
+}
+.forget a:hover{
+    text-decoration: underline;
+}
+
+
+.guest-mode{
+    margin: 40px 0px;
+
+}
+
+.guest-mode p{
+    font-size: 14.5px;
+    color: #fff;
+}
+.guest-mode a{
+    font-size: 15px;
+    color: #0ef;
+    text-decoration: none;
+}
+.guest-mode a:hover{
+    text-decoration: underline;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-box a{
+    font-size: 15px;
+    color: #0ef;
+    text-decoration: none;
+}
+.btn-box a:hover{
+    text-decoration: underline;
+}
+.btn-box button{
+    width: 90px;
+    height: 40px;
+    background: #0ef;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #1f293a;
+    font-weight: 600;
+    border: none;
+    transition: .4s ease;
+  
+}
+.btn-box button:hover{
+    box-shadow: 0px 0px 10px #fff;
+    color: #fff;
+}
